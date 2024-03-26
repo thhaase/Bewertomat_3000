@@ -1,0 +1,74 @@
+{
+  "Introduction": {
+    "good": [
+      "The student demonstrates a clear and comprehensive understanding of the subject matter.",
+      "An impressive ability to articulate key concepts and theories."
+    ],
+    "average": [
+      "The student displays a basic grasp of the introductory material, but lacks depth.",
+      "Concepts are generally understood, though critical connections between them are often missed."
+    ],
+    "bad": [
+      "There is a significant misunderstanding of the foundational principles.",
+      "Key introductory concepts are either glossed over or misunderstood."
+    ],
+    "other": [
+      "The introduction presents unique insights, though they diverge from conventional understanding.",
+      "An unconventional approach to the introduction that merits further discussion."
+    ]
+  },
+  "Main Part": {
+    "good": [
+      "The analysis is thorough, well-reasoned, and demonstrates a deep engagement with the material.",
+      "Arguments are robust, well-supported, and clearly articulated."
+    ],
+    "average": [
+      "The main arguments are present but lack the necessary depth and detail.",
+      "Some evidence is provided, but it falls short of fully substantiating the claims made."
+    ],
+    "bad": [
+      "The main section lacks coherence, with arguments that are poorly supported and weakly presented.",
+      "There is a notable absence of critical analysis and insufficient evidence."
+    ],
+    "other": [
+      "The main part includes interesting points, but they are tangential to the core argument.",
+      "A creative approach that, while intriguing, diverges significantly from the expected analysis."
+    ]
+  },
+  "Conclusion": {
+    "good": [
+      "The conclusion effectively synthesizes the key findings, reinforcing the strength of the argument.",
+      "A compelling and insightful summation that highlights the significance of the work."
+    ],
+    "average": [
+      "The conclusion summarizes the main points but fails to capture the broader implications.",
+      "A satisfactory conclusion that reiterates the main arguments without extending the discussion."
+    ],
+    "bad": [
+      "The conclusion is underdeveloped, offering little beyond a cursory summary of the text.",
+      "A lackluster conclusion that leaves key questions unanswered and fails to tie up loose ends."
+    ],
+    "other": [
+      "The conclusion presents a novel perspective that was not fully explored in the main text.",
+      "An unconventional ending that opens up new avenues for discussion."
+    ]
+  },
+  "test": {
+    "good": [
+      "The conclusion effectively synthesizes the key findings, reinforcing the strength of the argument.",
+      "A compelling and insightful summation that highlights the significance of the work."
+    ],
+    "average": [
+      "The conclusion summarizes the main points but fails to capture the broader implications.",
+      "A satisfactory conclusion that reiterates the main arguments without extending the discussion."
+    ],
+    "bad": [
+      "The conclusion is underdeveloped, offering little beyond a cursory summary of the text.",
+      "A lackluster conclusion that leaves key questions unanswered and fails to tie up loose ends."
+    ],
+    "other": [
+      "The conclusion presents a novel perspective that was not fully explored in the main text.",
+      "An unconventional ending that opens up new avenues for discussion."
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    margin: 0;
+    background-color: #232528; /* Main background color */
+    color: #ffffff; /* Main text color */
+    min-height: 100vh;
+    padding-bottom: 60px; /* Adjust padding to match footer height */
+    padding-top: 80px; /* Adjust based on the height of your title bar */
+}
+
+#titleBar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #1E2226; /* Slightly darker than the body background */
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; /* Increase font size */
+    padding: 20px 0; /* Increase padding for more space */
+    z-index: 10; /* Ensure title bar is above other content */
+}
+
+
+#topbar, #ratingsBar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px; /* More space between the introduction buttons and the title bar */
+}
+
+.menu {
+    background-color: #806df1;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.rating {
+    background-color: #D3D3D3;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Color scheme for ratings */
+.good { background-color: #90ee90; } /* Green for good */
+.average { background-color: #ffffa1; } /* Yellow for average */
+.bad { background-color: #ffcccb; } /* Red for bad */
+
+.menu:hover, .rating:hover, #deleteText:hover, #copyText:hover {
+    transform: scale(1.02);
+}
+
+.menu:active, .rating:active, #deleteText:active, #copyText:active {
+    background-color: #e12f2f; /* Darker red on click for a brief visual feedback */
+}
+
+.selected {
+    background-color: #fd230d; /* Example red color for selected items */
+}
+
+
+#phrasesList {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#phrasesList li {
+    background-color: #806df1;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 90%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#phrasesList li:hover {
+    background-color: #fd230d; /* Reddish color on hover */
+}
+
+#phraseField {
+    width: 80%;
+    height: 150px; /* Initial height set to be larger */
+    font-size: 1.4em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    color: #232528;
+    outline: none;
+    resize: vertical; /* Allow only vertical resizing */
+    margin-bottom: 20px; /* Increase spacing between the textfield and the buttons */
+}
+
+.button-container {
+    width: 80%; /* Match the width of the textfield */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust spacing below the buttons if needed */
+}
+
+.button-container {
+    width: 80%; /* Match the width of the textfield */
+    display: flex;
+    justify-content: space-between; /* This will add space between your buttons */
+    gap: 10px; /* This is new: add a gap between buttons */
+    margin-bottom: 20px; /* Adjusted space below the buttons */
+}
+
+#deleteText {
+    width: 50%; /* Adjust width to account for the gap */
+    padding: 10px;
+    font-size: 1em;
+    background-color: #fd230d; /* Red background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#copyText {
+    width: 50%; /* Adjust width to account for the gap */
+    padding: 10px;
+    font-size: 1em;
+    background-color: #0093a6; /* Red background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+
+footer#footerBar {
+    width: 100%;
+    background-color: #1E2226; /* Slightly darker than the body background */
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px; /* Adjust font size as necessary */
+    padding: 10px 0;
+    position: fixed; /* Fix footer to the bottom of the page */
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+
+}
+
+#githubLink {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: inline-block; /* Helps with positioning */
+}
+
+#githubIcon {
+    height: 30px; /* Adjust based on your icon's size */
+    width: auto; /* Maintains aspect ratio */
+}

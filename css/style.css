@@ -18,22 +18,21 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    background-color: #1E2226; /* Slightly darker than the body background */
+    background-color: #1E2226; 
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    font-size: 30px; /* Increase font size */
-    padding: 20px 0; /* Increase padding for more space */
-    z-index: 10; /* Ensure title bar is above other content */
+    font-size: 30px; 
+    padding: 20px 0; 
+    z-index: 10; 
 }
-
 
 #topbar, #ratingsBar {
     width: 80%;
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 30px; /* More space between the introduction buttons and the title bar */
+    margin-top: 30px; 
 }
 
 .menu {
@@ -68,11 +67,11 @@ body {
 }
 
 .menu:active, .rating:active, #deleteText:active, #copyText:active {
-    background-color: #e12f2f; /* Darker red on click for a brief visual feedback */
+    background-color: #e12f2f; 
 }
 
 .selected {
-    background-color: #fd230d; /* Example red color for selected items */
+    background-color: #fd230d; 
 }
 
 
@@ -97,12 +96,12 @@ body {
 }
 
 #phrasesList li:hover {
-    background-color: #fd230d; /* Reddish color on hover */
+    background-color: #fd230d; 
 }
 
 #phraseField {
     width: 80%;
-    height: 150px; /* Initial height set to be larger */
+    height: 150px; 
     font-size: 1.4em;
     padding: 10px;
     border-radius: 5px;
@@ -110,31 +109,31 @@ body {
     background-color: #ffffff;
     color: #232528;
     outline: none;
-    resize: vertical; /* Allow only vertical resizing */
-    margin-bottom: 20px; /* Increase spacing between the textfield and the buttons */
+    resize: vertical; 
+    margin-bottom: 20px; 
 }
 
 .button-container {
-    width: 80%; /* Match the width of the textfield */
+    width: 80%; 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; /* Adjust spacing below the buttons if needed */
+    margin-bottom: 20px; 
 }
 
 .button-container {
-    width: 80%; /* Match the width of the textfield */
+    width: 80%; 
     display: flex;
-    justify-content: space-between; /* This will add space between your buttons */
-    gap: 10px; /* This is new: add a gap between buttons */
-    margin-bottom: 20px; /* Adjusted space below the buttons */
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-bottom: 20px; 
 }
 
 #deleteText {
-    width: 50%; /* Adjust width to account for the gap */
+    width: 50%; 
     padding: 10px;
     font-size: 1em;
-    background-color: #fd230d; /* Red background */
-    color: #ffffff; /* White text */
+    background-color: #fd230d; 
+    color: #ffffff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -142,11 +141,11 @@ body {
 }
 
 #copyText {
-    width: 50%; /* Adjust width to account for the gap */
+    width: 50%; 
     padding: 10px;
     font-size: 1em;
-    background-color: #0093a6; /* Red background */
-    color: #ffffff; /* White text */
+    background-color: #0093a6; 
+    color: #ffffff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -156,13 +155,13 @@ body {
 
 footer#footerBar {
     width: 100%;
-    background-color: #1E2226; /* Slightly darker than the body background */
+    background-color: #1E2226; 
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    font-size: 20px; /* Adjust font size as necessary */
+    font-size: 20px; 
     padding: 10px 0;
-    position: fixed; /* Fix footer to the bottom of the page */
+    position: fixed; 
     bottom: 0;
     left: 0;
     z-index: 10;
@@ -174,10 +173,10 @@ footer#footerBar {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
-    display: inline-block; /* Helps with positioning */
+    display: inline-block; 
 }
 
 #githubIcon {
-    height: 30px; /* Adjust based on your icon's size */
-    width: auto; /* Maintains aspect ratio */
+    height: 30px; 
+    width: auto; 
 }
